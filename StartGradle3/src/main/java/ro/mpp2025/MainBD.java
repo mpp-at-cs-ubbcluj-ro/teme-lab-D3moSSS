@@ -25,6 +25,6 @@ public class MainBD {
             System.out.println(car);
 
 
-        carRepo.update(1, new Car("Skoda","Skoda S Ultra", 2019));
+        carRepo.update(1, new Car("fsdafsdafasdf","Skoda S Ultra", 2019));
     }
 }
