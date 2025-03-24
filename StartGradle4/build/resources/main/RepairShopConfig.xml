@@ -28,7 +28,7 @@
     </bean>
 
     <bean id="shopService" class="services.ComputerRepairServices">
-        <constructor-arg value="requestsRepoFile"/>
+        <constructor-arg ref="requestsRepoFile"/>
         <constructor-arg ref="formsRepoFile"/>
     </bean>
    
